@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:id="@+id/dialog_root"
+              android:paddingTop="10dp"
+              android:background="#FFFFFF"
+              android:paddingBottom="10dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <ImageView
+            android:layout_marginLeft="20dp"
+            android:layout_width="20dp"
+            android:src="@drawable/wifi_settings"
+            android:layout_height="20dp"/>
+
+    <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:text="网络请求失败，请检查您的网络设置"
+            android:layout_height="wrap_content"/>
+
+    <ImageView
+            android:layout_marginRight="20dp"
+            android:layout_width="20dp"
+            android:src="@drawable/rigth_inner"
+            android:layout_height="20dp"/>
+
+</LinearLayout>
